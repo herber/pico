@@ -92,6 +92,11 @@ Type: `function`
 
 Will be executed if `route` and `method` match
 
+##### Parameters:
+- req <br> Type: `object` <br> Contains request information
+
+- res <br> Type: `object` <br> Use `res.send()` to send something back to the client
+
 ## License
 
 MIT © [Tobias Herber](https://tobihrbr.com)
