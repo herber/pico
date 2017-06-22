@@ -97,6 +97,8 @@ Will be executed if `route` and `method` match
 
 - res <br> Type: `object` <br> Use `res.send()` to send something back to the client
 
+## [Examples](https://github.com/tobihrbr/pico/tree/master/examples)
+
 ## License
 
 MIT © [Tobias Herber](https://tobihrbr.com)
