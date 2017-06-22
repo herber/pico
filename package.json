@@ -1,0 +1,41 @@
+{
+  "name": "pico-http",
+  "version": "0.1.0",
+  "description": "A simple &amp; fast http abstraction",
+  "license": "MIT",
+  "repository": "tobihrbr/pico",
+  "author": {
+    "name": "tobihrbr",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "fyi && nyc ava -v",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test-watch": "fyi --watch"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "http",
+    "server",
+    "https",
+    "pico",
+    "serve",
+    "middleware"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "fyi": "^0.1.4",
+    "node-fetch": "^1.7.1",
+    "nyc": "^11.0.2"
+  },
+  "fyi": {
+    "ignore": []
+  }
+}
