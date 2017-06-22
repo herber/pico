@@ -1,6 +1,6 @@
 # pico
 
-[![Supported by bytes](http://art.bytes.gq/badge.svg)](https://bytes.gq)
+[![Supported by bytes](http://art.bytes.gq/badge.svg)](https://bytes.gq) [![Coverage Status](https://coveralls.io/repos/github/tobihrbr/pico/badge.svg?branch=master)](https://coveralls.io/github/tobihrbr/pico?branch=master) [![Build Status](https://travis-ci.org/tobihrbr/pico.svg?branch=master)](https://travis-ci.org/tobihrbr/pico) [![Build status](https://ci.appveyor.com/api/projects/status/f5tb1gt3ci231n4l?svg=true)](https://ci.appveyor.com/project/tobihrbr/pico)
 
 > A simple &amp; fast http abstraction
 
@@ -26,7 +26,7 @@ pico.use((req, res, next) => {
 pico.get('/', (req, res) => {
   // Set contenttype
   res.contentType('text/html');
-  
+
   // Send response
   res.send('Hello World');
 });
@@ -36,9 +36,9 @@ pico.post('/api', (req, res) => {
   const o = {
     user: 'test'
   };
-  
+
   res.contentType('application/json');
-  
+
   res.send(JSON.stringify(o));
 });
 
@@ -82,7 +82,7 @@ Type: `string` or `regexp`
 
 Allowed route
 
-#### method 
+#### method
 Type: `string`
 
 Http route(eg. `GET`, `POST`)
