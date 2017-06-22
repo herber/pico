@@ -60,7 +60,7 @@ Listen to http requests on port
 #### port
 Type: `number`
 
-The port to listen to
+The port that should be used.
 
 ### use(cb)
 Add middleware. Middleware will be executed on every request before specific route handling
@@ -70,11 +70,11 @@ Type: `function`
 
 Will be executed on request
 ##### Parameters:
-- req <br> Type: `object` <br> Contains information about request
+- req <br> Type: `object` <br> Contains request information
 
 - res <br> Type: `object` <br> Use `res.send()` to send something back to the client
 
-- next <br> Type: `function` <br> Will execute the next request handler
+- next <br> Type: `function` <br> Execute next middleware / request handler
 
 ### serve(route, method, cb)
 #### route
@@ -85,15 +85,12 @@ Allowed route
 #### method
 Type: `string`
 
-Http route(eg. `GET`, `POST`)
+Http method(eg. `GET`, `POST`)
 
 #### cb
 Type: `function`
 
-Parameters: `req`, `res`
-
 Will be executed if `route` and `method` match
-
 
 ## License
 
