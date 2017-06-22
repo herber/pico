@@ -4,6 +4,8 @@
 
 > A simple &amp; fast http abstraction
 
+### [Examples](https://github.com/tobihrbr/pico/tree/master/examples)
+
 ## Install
 
 ```
@@ -96,8 +98,6 @@ Will be executed if `route` and `method` match
 - req <br> Type: `object` <br> Contains request information
 
 - res <br> Type: `object` <br> Use `res.send()` to send something back to the client
-
-## [Examples](https://github.com/tobihrbr/pico/tree/master/examples)
 
 ## License
 
