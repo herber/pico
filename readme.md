@@ -1,6 +1,6 @@
 # pico
 
-[![Supported by bytes](http://art.bytes.gq/badge.svg)](https://bytes.gq) [![Coverage Status](https://coveralls.io/repos/github/herber/pico/badge.svg?branch=master)](https://coveralls.io/github/herber/pico?branch=master) [![Build Status](https://travis-ci.org/tobihrbr/pico.svg?branch=master)](https://travis-ci.org/tobihrbr/pico) [![Build status](https://ci.appveyor.com/api/projects/status/f5tb1gt3ci231n4l?svg=true)](https://ci.appveyor.com/project/tobihrbr/pico)
+[![Supported by bytes](http://art.bytes.gq/badge.svg)](https://bytes.gq) [![Coverage Status](https://coveralls.io/repos/github/tobihrbr/pico/badge.svg?branch=master)](https://coveralls.io/github/tobihrbr/pico?branch=master) [![Build Status](https://travis-ci.org/herber/pico.svg?branch=master)](https://travis-ci.org/herber/pico) [![Build status](https://ci.appveyor.com/api/projects/status/f5tb1gt3ci231n4l?svg=true)](https://ci.appveyor.com/project/tobihrbr/pico)
 
 > A simple &amp; fast http abstraction
 
